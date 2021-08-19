@@ -1,0 +1,8 @@
+.carousel{
+    height: 360px;
+}
+@media only screen and (min-width: 768px){
+    .slider-single-content>img:hover{
+     transform: scale(1.2);
+    }
+}

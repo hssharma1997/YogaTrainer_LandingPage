@@ -1,0 +1,65 @@
+.quote__line1{
+    color: white;
+    font-family: sombra;
+    text-align: center;
+    padding:10px;
+    position: relative;
+    animation: line1 2s ease forwards;
+   
+    
+}
+.quote__line2{
+    color: white;
+    font-family: sombra;
+    text-align: center;
+    position: relative;
+    padding:10px;
+    animation: line2 2s ease forwards;
+    
+}
+@keyframes line1 {
+    from{font-size: 0;}
+    to{font-size: 6vw;
+
+    }
+    
+}
+@keyframes line2 {
+    from{font-size: 0;}
+    to{font-size: 6vw;
+
+    }
+    
+}
+
+
+@media only screen and (min-width: 768px){
+    .quote__line1,.quote__line2{
+        font-size: 3vw;
+        
+    }
+    
+    .header{
+        background-color: #7352FF;
+        background-size: contain;
+    }
+    .quote__container{
+        margin-bottom: 170px;
+    }
+    @keyframes line1 {
+        from{font-size: 0;}
+        to{font-size: 3vw;
+    
+        }
+        
+    }
+    @keyframes line2 {
+        from{font-size: 0;}
+        to{font-size: 3vw;
+    
+        }
+        
+    }
+    
+   
+}

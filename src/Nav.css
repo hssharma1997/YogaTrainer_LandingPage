@@ -1,0 +1,33 @@
+.dropdown{
+    text-align: right !important;
+    padding-right: 10px;
+}
+.burger__icon{
+    height: 15px;
+    width: 20px;
+   
+}
+.horizontal__nav{
+    display: none;
+}
+@media only screen and (min-width: 768px){
+    .dropdown{
+        display:none;
+        
+    }
+    .horizontal__nav{
+      display: block;
+        padding-top: 8px;
+        padding-right: 20px;
+        
+    }
+    .nav-item>a{
+        color: white !important;
+    }
+    .special{
+        border: 1px solid white;
+        border-radius: 22px;
+    }
+    
+    
+    }

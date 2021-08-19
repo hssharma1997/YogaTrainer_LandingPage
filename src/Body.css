@@ -1,0 +1,113 @@
+.intro{
+    background-color: white !important;
+    margin-right: 6px;
+    margin-left: 6px;
+  
+    padding: 10px;
+    border-radius: 9px;
+    
+
+    
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.photo{
+    flex:0.3;
+    
+}
+.tags{
+    flex:0.1;
+    padding: 4px;
+  margin-left: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-content: flex-start;
+    
+    
+    
+}
+.photo>img{
+    max-width: 100%;
+}
+.contact{
+    flex:0.6;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+   
+}
+.b_a{
+grid-column-start: 1 !important;
+grid-column-end: 3 !important;
+}
+.b_b{
+    grid-column-start: 1 !important;
+grid-column-end: 3 !important;
+}
+.photo>img{
+    width: 120px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #7352FF;
+}
+.tags>div{
+    
+    margin-bottom: 7px;
+    width: 50px;
+    border:1px solid #7352FF;
+    padding:3px;
+    border-radius: 10px;
+    font-size: 7px;
+    text-align: center;
+    height: 20px;
+
+  
+}
+.newsletter{
+    max-width: 100%;
+}
+
+.btn{
+    border:3px solid #7352FF !important;
+    padding:2px !important;
+    border-radius: 10px !important;
+    margin: 3px !important;
+    
+    
+}
+.specialbtn{
+    border:3px solid #7352FF !important;
+    background-color: #7352FF !important;
+    color: white !important;
+    padding:5px !important;
+    border-radius: 10px !important;
+    
+}
+@media only screen and (min-width: 768px){
+    .intro{
+        width: 60vw;
+        margin: auto;
+        margin-top: -130px;
+        margin-bottom: -65px;
+        z-index: 1;
+        
+        
+        border: 9px solid #7352FF
+        
+    }
+    
+    .full__info{
+        padding:20px;
+       
+    }
+   
+   
+}

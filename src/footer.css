@@ -1,0 +1,129 @@
+.footer{
+    background-color: #191919;
+    /* margin-left: 6px;
+    margin-right: 6px; */
+    text-align: center;
+    color: white;
+}
+.footer>h1{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+
+    
+}
+.videos{
+ /* width: 300px; */
+ margin-left: auto;
+ margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    margin-bottom: 20px ;
+    display: block;
+    
+
+}
+
+.footer>h1{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    
+    
+
+
+.footer__info{
+    background-color: #7352FF;
+}
+.footer__info>h1{
+    padding-top: 20px;
+   
+}
+.social__icons>a{
+    margin: 15px;
+}
+.all_rights_reserved{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.all_rights_reserved>div>p{
+    flex:0.5;
+    font-size: 12px;
+}
+.terms_privacy_about{
+    font-size: 12px;
+    flex: 0.4;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.terms_privacy_about>a{
+    color: white;
+    text-decoration: none;
+    padding-left: 4px;
+}
+.terms_privacy_about>a:visited{
+    color: white;
+    
+}
+@media only screen and (min-width: 768px){
+.footer{
+    width: 100vw;
+}
+.footer__info{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    padding: 10px;
+}
+   .footer__info>div>div>h1{
+       text-align: left;
+      
+   }
+    .social__icons{
+       text-align: left;
+       
+   }
+   .all_rights_reserved{
+       display: flex;
+       flex-direction: column;
+       position: relative;
+       right: 20px;
+     
+      
+   }
+   .all_rights_reserved>div>p{
+       font-size:20px;
+   }
+   
+    
+   
+   .terms_privacy_about>a{
+       font-size:20px;
+       
+   } 
+   .social__icons>a>img{
+       width: 20px;
+       height: auto;
+   }
+   .videos{
+       margin-bottom: 80px;
+       
+   }
+   .videos:hover{
+    transform: scale(1.2);
+   }
+    
+    }
+
+
